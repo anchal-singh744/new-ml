@@ -77,7 +77,7 @@ def app():
 
     with col2:
         # Text translation
-            from google_trans_new import google_translator 
+            from deep_translator import GoogleTranslator 
             from textblob import TextBlob
             
             filename_translated = "translation.mp3"
