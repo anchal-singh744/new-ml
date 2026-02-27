@@ -6,7 +6,7 @@ app = Multiapp()
 
 app.add_app("Home", home.app)
 app.add_app("Emotion Text Classifier", emotionClassifier.app)
-app.add_app("Text to speech", text.app)   
+app.add_app("Text to speech-anchal", text.app)   
 
 
 app.run()
